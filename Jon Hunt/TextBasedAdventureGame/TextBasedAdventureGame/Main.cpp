@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+
+	/*Player mainCharacter = new Player();
+	Warrior mainCharacter = new Warrior();*/
 		int choiceOne_Path;
 		cout << " Your friends dared you to enter a haunted house...what will you do?" << endl;
 		cout << "\t >> Enter '1' to enter to living room?" << endl;
