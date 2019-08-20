@@ -1,2 +1,15 @@
-﻿  Main.cpp
-  TextBasedAdventureGame.vcxproj -> C:\Users\flame\source\repos\TextBasedAdventureGame\Debug\TextBasedAdventureGame.exe
+﻿  ghostBuster.cpp
+  mage.cpp
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.h(7,48): error C2061:  syntax error: identifier 'string'
+  player.cpp
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.h(7,48): error C2061:  syntax error: identifier 'string'
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.h(7,48): error C2061:  syntax error: identifier 'string'
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.cpp(8,55): error C2511:  'Player::Player(std::string,std::string,std::string)': overloaded member function not found in 'Player'
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.h(4): message :  see declaration of 'Player'
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.cpp(10,2): error C2352:  'Player::chooseClass': illegal call of non-static member function
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.h(10): message :  see declaration of 'Player::chooseClass'
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.cpp(11,2): error C2352:  'Player::setRace': illegal call of non-static member function
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.h(12): message :  see declaration of 'Player::setRace'
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.cpp(12,2): error C2352:  'Player::setName': illegal call of non-static member function
+  Generating Code...
+D:\Github\AdventureGame\Jon Hunt\TextBasedAdventureGame\TextBasedAdventureGame\player.h(11): message :  see declaration of 'Player::setName'
