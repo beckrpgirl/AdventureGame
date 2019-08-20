@@ -2,6 +2,7 @@
 #include <string>
 
 #include "main.h"
+#include "Player.h"
 
 using namespace std;
 
@@ -9,8 +10,11 @@ string action;
 string choice;
 
 Main m;
+Player player;
 
 int main() {
+
+
 
 	m.welcome();
 
@@ -99,6 +103,14 @@ void Main::welcome() {
 
 	cout << "\tWelcome to the game adventurer!\n\n";
 	cout << "In this game you will explore a very brief dungeon!\n";
+
+	player.NameCollect();
+
+	player.RaceOptions();
+
+	player.ClassOption();
+
+
 	cout << "Would you like to enter?\n1 - Enter\n2 - Quit\n";
 	cin >> choice;
 
